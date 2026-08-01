@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KeyFlip — Support</title>
+<style>
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 2.5rem 1.25rem 4rem;
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1c1c1e; background: #fff;
+}
+main { max-width: 46rem; margin: 0 auto; }
+h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+h2 { font-size: 1.15rem; margin: 2.5rem 0 .6rem; letter-spacing: -.01em; }
+.tag { color: #6b6b70; margin: 0 0 2rem; font-size: .95rem; }
+p { margin: 0 0 1rem; }
+ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+li { margin-bottom: .4rem; }
+a { color: #0066cc; }
+hr { border: 0; border-top: 1px solid #e5e5ea; margin: 3rem 0; }
+.lang { font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
+        color: #8e8e93; margin: 0 0 1.25rem; font-weight: 600; }
+footer { margin-top: 3rem; color: #8e8e93; font-size: .85rem; }
+code { background: #f2f2f7; padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+@media (prefers-color-scheme: dark) {
+  body { color: #f2f2f7; background: #1c1c1e; }
+  .tag, footer, .lang { color: #98989d; }
+  a { color: #4da3ff; }
+  hr { border-top-color: #38383a; }
+  code { background: #2c2c2e; }
+}
+</style>
+</head>
+<body>
+<main>
+
+<h1>KeyFlip</h1>
+<p class="tag">Support &middot; Поддержка</p>
+
+<p class="lang">English</p>
+<p>KeyFlip is a menu-bar utility for macOS that notices when a word was typed in
+the wrong keyboard layout and corrects it as you type — for example
+<code>ghbdtn</code> becomes <code>привет</code>. Everything happens on your Mac.
+Nothing is sent anywhere.</p>
+
+<h2>Requirements</h2>
+<ul>
+  <li>macOS 13 or later</li>
+  <li>Two permissions, both granted by you in System Settings &rarr; Privacy &amp; Security:
+      <strong>Accessibility</strong> and <strong>Input Monitoring</strong>.
+      KeyFlip cannot see any typing until both are enabled.</li>
+</ul>
+
+<h2>Getting started</h2>
+<ul>
+  <li>Open the KeyFlip menu-bar icon and choose <strong>Permissions…</strong>, then
+      enable KeyFlip in both lists. Relaunch KeyFlip if macOS asks.</li>
+  <li>Type normally. When a word comes out in the wrong layout, KeyFlip rewrites it
+      and switches the input source to match.</li>
+  <li>To force a conversion by hand, hold <strong>Control</strong> and double-click a word.</li>
+  <li>If a correction was wrong, delete it and retype — KeyFlip leaves that word alone
+      for the next few minutes.</li>
+</ul>
+
+<h2>Common questions</h2>
+<p><strong>Nothing happens when I type.</strong> Almost always a missing permission.
+Check both Accessibility and Input Monitoring, then quit and reopen KeyFlip.</p>
+<p><strong>It corrected something it should not have.</strong> Delete the correction and
+retype the word. To make it permanent, add a rule under Settings &rarr; User Dictionary.</p>
+<p><strong>Does it read my passwords?</strong> No. Secure text fields and Secure Event
+Input are ignored, and the app has no networking code at all.</p>
+
+<hr>
+
+<p class="lang">Русский</p>
+<p>KeyFlip — утилита для macOS в строке меню. Она замечает, что слово набрано не в той
+раскладке, и исправляет его прямо во время набора: например, <code>ghbdtn</code>
+превращается в <code>привет</code>. Всё происходит локально на вашем Mac,
+никакие данные никуда не отправляются.</p>
+
+<h2>Требования</h2>
+<ul>
+  <li>macOS 13 или новее</li>
+  <li>Два разрешения, которые вы выдаёте сами в Системных настройках &rarr;
+      Конфиденциальность и безопасность: <strong>Универсальный доступ</strong> и
+      <strong>Мониторинг ввода</strong>. Без них KeyFlip не видит набор текста.</li>
+</ul>
+
+<h2>Начало работы</h2>
+<ul>
+  <li>Откройте значок KeyFlip в строке меню, выберите <strong>Разрешения…</strong> и
+      включите KeyFlip в обоих списках. Перезапустите приложение, если macOS попросит.</li>
+  <li>Печатайте как обычно. Если слово вышло не в той раскладке, KeyFlip перепишет его
+      и переключит источник ввода.</li>
+  <li>Чтобы преобразовать слово вручную, удерживайте <strong>Control</strong> и дважды
+      щёлкните по нему.</li>
+  <li>Если исправление было лишним — удалите его и наберите слово заново. Несколько
+      минут KeyFlip не будет трогать это слово.</li>
+</ul>
+
+<h2>Частые вопросы</h2>
+<p><strong>Ничего не происходит при наборе.</strong> Почти всегда дело в разрешениях.
+Проверьте оба пункта и перезапустите KeyFlip.</p>
+<p><strong>Исправило то, что не нужно.</strong> Удалите исправление и наберите слово
+заново. Чтобы закрепить это, добавьте правило в Настройках &rarr; Пользовательский словарь.</p>
+<p><strong>Читает ли приложение пароли?</strong> Нет. Защищённые поля и Secure Event Input
+игнорируются, а сетевого кода в приложении нет вообще.</p>
+
+<hr>
+<h2>Contact &middot; Связь</h2>
+<p><a href="mailto:albatrossolutions@icloud.com">albatrossolutions@icloud.com</a></p>
+<p><a href="privacy.html">Privacy Policy &middot; Политика конфиденциальности</a></p>
+<footer>KeyFlip 1.0 &middot; Albatros Solutions</footer>
+
+</main>
+</body>
+</html>
