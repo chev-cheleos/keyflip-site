@@ -50,14 +50,17 @@ Nothing is sent anywhere.</p>
 <ul>
   <li>macOS 13 or later</li>
   <li>Two permissions, both granted by you in System Settings &rarr; Privacy &amp; Security:
-      <strong>Accessibility</strong> and <strong>Input Monitoring</strong>.
-      KeyFlip cannot see any typing until both are enabled.</li>
+      <strong>Input Monitoring</strong>, so KeyFlip can see which physical keys you press, and
+      permission to type the correction back, which macOS lists in the pane titled
+      <strong>Accessibility</strong>. KeyFlip does not use accessibility features and never
+      reads another app&#x27;s interface. It cannot see any typing until both are enabled.</li>
 </ul>
 
 <h2>Getting started</h2>
 <ul>
-  <li>Open the KeyFlip menu-bar icon and choose <strong>Permissions…</strong>, then
-      enable KeyFlip in both lists. Relaunch KeyFlip if macOS asks.</li>
+  <li>Open the KeyFlip menu-bar icon and choose <strong>Permissions &amp; Diagnostics</strong>,
+      then enable KeyFlip in both lists. It starts working as soon as both are on —
+      no relaunch needed.</li>
   <li>Type normally. When a word comes out in the wrong layout, KeyFlip rewrites it
       and switches the input source to match.</li>
   <li>To force a conversion by hand, hold <strong>Control</strong> and double-click a word.</li>
@@ -67,7 +70,10 @@ Nothing is sent anywhere.</p>
 
 <h2>Common questions</h2>
 <p><strong>Nothing happens when I type.</strong> Almost always a missing permission.
-Check both Accessibility and Input Monitoring, then quit and reopen KeyFlip.</p>
+Check both Input Monitoring and the Accessibility pane entry; KeyFlip picks them up within
+a second, without a relaunch. If that does not help, use Report a Bug on the
+Permissions &amp; Diagnostics screen — it collects everything needed to diagnose it into one
+file you can send us.</p>
 <p><strong>It corrected something it should not have.</strong> Delete the correction and
 retype the word. To make it permanent, add a rule under Settings &rarr; User Dictionary.</p>
 <p><strong>Does it read my passwords?</strong> No. Secure text fields and Secure Event
@@ -85,8 +91,11 @@ Input are ignored, and the app has no networking code at all.</p>
 <ul>
   <li>macOS 13 или новее</li>
   <li>Два разрешения, которые вы выдаёте сами в Системных настройках &rarr;
-      Конфиденциальность и безопасность: <strong>Универсальный доступ</strong> и
-      <strong>Мониторинг ввода</strong>. Без них KeyFlip не видит набор текста.</li>
+      Конфиденциальность и безопасность: <strong>Мониторинг ввода</strong>, чтобы видеть
+      нажатия физических клавиш, и разрешение вводить исправление обратно, которое macOS
+      показывает в разделе <strong>Универсальный доступ</strong>. KeyFlip не использует
+      функции универсального доступа и не читает интерфейс других приложений.
+      Без них KeyFlip не видит набор текста.</li>
 </ul>
 
 <h2>Начало работы</h2>
